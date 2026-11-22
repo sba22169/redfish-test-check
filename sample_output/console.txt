@@ -1,0 +1,15 @@
+============================================================
+Controller RAID.Integrated.1-1  fw 8.6.0.0.0  [OK]
+Drives found: 8  [OK]
+------------------------------------------------------------
+  [PASS] S000ACME   Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1
+  [PASS] S001ACME   Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1
+  [PASS] S002ACME   Disk.Bay.2:Enclosure.Internal.0-1:RAID.Integrated.1-1
+  [FAIL] S003ACME   Disk.Bay.3:Enclosure.Internal.0-1:RAID.Integrated.1-1  -> health=Critical (want OK); failure predicted
+  [PASS] S004ACME   Disk.Bay.4:Enclosure.Internal.0-1:RAID.Integrated.1-1
+  [PASS] S005ACME   Disk.Bay.5:Enclosure.Internal.0-1:RAID.Integrated.1-1
+  [FAIL] S006ACME   Disk.Bay.6:Enclosure.Internal.0-1:RAID.Integrated.1-1  -> firmware 2.4.0 < 2.6.0
+  [PASS] S007ACME   Disk.Bay.7:Enclosure.Internal.0-1:RAID.Integrated.1-1
+------------------------------------------------------------
+OVERALL: FAIL
+============================================================

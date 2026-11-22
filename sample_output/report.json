@@ -1,0 +1,63 @@
+{
+  "controller": "RAID.Integrated.1-1",
+  "controller_firmware": "8.6.0.0.0",
+  "controller_ok": true,
+  "drive_count": 8,
+  "drive_count_ok": true,
+  "drives": [
+    {
+      "serial": "S000ACME",
+      "bay": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "serial": "S001ACME",
+      "bay": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "serial": "S002ACME",
+      "bay": "Disk.Bay.2:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "serial": "S003ACME",
+      "bay": "Disk.Bay.3:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": false,
+      "reasons": [
+        "health=Critical (want OK)",
+        "failure predicted"
+      ]
+    },
+    {
+      "serial": "S004ACME",
+      "bay": "Disk.Bay.4:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "serial": "S005ACME",
+      "bay": "Disk.Bay.5:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": true,
+      "reasons": []
+    },
+    {
+      "serial": "S006ACME",
+      "bay": "Disk.Bay.6:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": false,
+      "reasons": [
+        "firmware 2.4.0 < 2.6.0"
+      ]
+    },
+    {
+      "serial": "S007ACME",
+      "bay": "Disk.Bay.7:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "passed": true,
+      "reasons": []
+    }
+  ],
+  "overall_pass": false
+}

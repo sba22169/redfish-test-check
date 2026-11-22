@@ -1,0 +1,8 @@
+# Expected storage configuration for the unit under test.
+# The checker fails any drive (or the controller) that does not meet these.
+expected_drive_count: 8
+required_health: "OK"
+min_controller_firmware: "8.5.0.0.0"
+min_drive_firmware: "2.6.0"
+expected_media_type: "SSD"
+min_capacity_gb: 1900
